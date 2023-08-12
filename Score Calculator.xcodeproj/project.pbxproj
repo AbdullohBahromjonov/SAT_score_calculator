@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		E50C70C92A59D8AD00E8C08D /* Score_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C70C82A59D8AD00E8C08D /* Score_CalculatorApp.swift */; };
-		E50C70CB2A59D8AD00E8C08D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C70CA2A59D8AD00E8C08D /* ContentView.swift */; };
+		E50C70CB2A59D8AD00E8C08D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C70CA2A59D8AD00E8C08D /* HomeScreen.swift */; };
 		E50C70CD2A59D8AE00E8C08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50C70CC2A59D8AE00E8C08D /* Assets.xcassets */; };
 		E50C70D02A59D8AE00E8C08D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50C70CF2A59D8AE00E8C08D /* Preview Assets.xcassets */; };
+		E50C70D92A59DA1200E8C08D /* Arvo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50C70D82A59DA1200E8C08D /* Arvo-Bold.ttf */; };
+		E50C70DB2A59DA1900E8C08D /* Arvo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50C70DA2A59DA1900E8C08D /* Arvo-Regular.ttf */; };
+		E50C70DC2A59DA6600E8C08D /* Score-Calculator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E50C70D62A59D98700E8C08D /* Score-Calculator-Info.plist */; };
+		E50C70DE2A59DA9E00E8C08D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C70DD2A59DA9E00E8C08D /* Launch Screen.storyboard */; };
+		E526DB9C2A7BCD7100E5EAED /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526DB9B2A7BCD7100E5EAED /* ScoreViewModel.swift */; };
+		E58E8B392A5B208300DE4622 /* ScoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E8B382A5B208300DE4622 /* ScoreScreen.swift */; };
+		E58FC5962A743D5B00534965 /* ScoreResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FC5952A743D5B00534965 /* ScoreResults.swift */; };
+		E5C616DC2A7EF79C00C0E4F5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C616DB2A7EF79C00C0E4F5 /* CustomTextField.swift */; };
+		E5DBC30C2A7CFF7E00A31AEF /* ScoreSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DBC30B2A7CFF7E00A31AEF /* ScoreSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E50C70C52A59D8AD00E8C08D /* Score Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50C70C82A59D8AD00E8C08D /* Score_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_CalculatorApp.swift; sourceTree = "<group>"; };
-		E50C70CA2A59D8AD00E8C08D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E50C70CA2A59D8AD00E8C08D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E50C70CC2A59D8AE00E8C08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E50C70CF2A59D8AE00E8C08D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E50C70D62A59D98700E8C08D /* Score-Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Score-Calculator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E50C70D82A59DA1200E8C08D /* Arvo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Bold.ttf"; sourceTree = "<group>"; };
+		E50C70DA2A59DA1900E8C08D /* Arvo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arvo-Regular.ttf"; sourceTree = "<group>"; };
+		E50C70DD2A59DA9E00E8C08D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E526DB9B2A7BCD7100E5EAED /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		E58E8B382A5B208300DE4622 /* ScoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScreen.swift; sourceTree = "<group>"; };
+		E58FC5952A743D5B00534965 /* ScoreResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreResults.swift; sourceTree = "<group>"; };
+		E5C616DB2A7EF79C00C0E4F5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E5DBC30B2A7CFF7E00A31AEF /* ScoreSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		E50C70C72A59D8AD00E8C08D /* Score Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E50C70D62A59D98700E8C08D /* Score-Calculator-Info.plist */,
+				E50C70D72A59D9F400E8C08D /* Fonts */,
 				E50C70C82A59D8AD00E8C08D /* Score_CalculatorApp.swift */,
-				E50C70CA2A59D8AD00E8C08D /* ContentView.swift */,
+				E5C616D92A7EF68C00C0E4F5 /* Home Screen */,
+				E5C616DD2A7EF7F600C0E4F5 /* Score Screen */,
+				E50C70DD2A59DA9E00E8C08D /* Launch Screen.storyboard */,
 				E50C70CC2A59D8AE00E8C08D /* Assets.xcassets */,
 				E50C70CE2A59D8AE00E8C08D /* Preview Content */,
 			);
@@ -65,6 +87,67 @@
 				E50C70CF2A59D8AE00E8C08D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E50C70D72A59D9F400E8C08D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E50C70D82A59DA1200E8C08D /* Arvo-Bold.ttf */,
+				E50C70DA2A59DA1900E8C08D /* Arvo-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E5C616D92A7EF68C00C0E4F5 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E5C616DA2A7EF72200C0E4F5 /* View */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		E5C616DA2A7EF72200C0E4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E50C70CA2A59D8AD00E8C08D /* HomeScreen.swift */,
+				E5C616DB2A7EF79C00C0E4F5 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5C616DD2A7EF7F600C0E4F5 /* Score Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E5C616DF2A7EF82000C0E4F5 /* Model */,
+				E5C616DE2A7EF80900C0E4F5 /* View */,
+				E5C616E02A7EF83700C0E4F5 /* View Model */,
+			);
+			path = "Score Screen";
+			sourceTree = "<group>";
+		};
+		E5C616DE2A7EF80900C0E4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E58E8B382A5B208300DE4622 /* ScoreScreen.swift */,
+				E5DBC30B2A7CFF7E00A31AEF /* ScoreSectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5C616DF2A7EF82000C0E4F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E58FC5952A743D5B00534965 /* ScoreResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5C616E02A7EF83700C0E4F5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				E526DB9B2A7BCD7100E5EAED /* ScoreViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50C70DE2A59DA9E00E8C08D /* Launch Screen.storyboard in Resources */,
+				E50C70D92A59DA1200E8C08D /* Arvo-Bold.ttf in Resources */,
 				E50C70D02A59D8AE00E8C08D /* Preview Assets.xcassets in Resources */,
 				E50C70CD2A59D8AE00E8C08D /* Assets.xcassets in Resources */,
+				E50C70DC2A59DA6600E8C08D /* Score-Calculator-Info.plist in Resources */,
+				E50C70DB2A59DA1900E8C08D /* Arvo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50C70CB2A59D8AD00E8C08D /* ContentView.swift in Sources */,
+				E5C616DC2A7EF79C00C0E4F5 /* CustomTextField.swift in Sources */,
+				E58E8B392A5B208300DE4622 /* ScoreScreen.swift in Sources */,
+				E5DBC30C2A7CFF7E00A31AEF /* ScoreSectionView.swift in Sources */,
+				E526DB9C2A7BCD7100E5EAED /* ScoreViewModel.swift in Sources */,
+				E50C70CB2A59D8AD00E8C08D /* HomeScreen.swift in Sources */,
 				E50C70C92A59D8AD00E8C08D /* Score_CalculatorApp.swift in Sources */,
+				E58FC5962A743D5B00534965 /* ScoreResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -267,24 +359,31 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Score Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 6J9XRFD286;
+				DEVELOPMENT_TEAM = U6GM37S848;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Score-Calculator-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SAT Score";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abdulloh.Score-Calculator";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zafarjon.Score-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,24 +395,31 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Score Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 6J9XRFD286;
+				DEVELOPMENT_TEAM = U6GM37S848;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Score-Calculator-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SAT Score";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abdulloh.Score-Calculator";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zafarjon.Score-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

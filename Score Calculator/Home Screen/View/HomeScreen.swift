@@ -48,7 +48,19 @@ struct HomeScreen: View {
                             }
                         
                         
-                        NavigationLink(destination: ScoreScreen(reading: $results.reading, writing: $results.writing, math: $results.math, finalScore: $results.finalScore), isActive: $check) {
+                        NavigationLink(
+                            destination:
+                                ScoreScreen(
+                                    reading: $results.reading,
+                                    writing: $results.writing,
+                                    math: $results.math,
+                                    readingCorrect: $reading,
+                                    writingCorrect: $writing,
+                                    mathCorrect: $math,
+                                    finalScore: $results.finalScore
+                                ),
+                            isActive: $check
+                        ) {
                             Button(
                                 action: {
                                     results = showResults(mathCorrect: Int(math) ?? 0, readingCorrect: Int(reading) ?? 0, writingCorrect: Int(writing) ?? 0)

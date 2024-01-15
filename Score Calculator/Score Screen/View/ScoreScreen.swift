@@ -12,6 +12,11 @@ struct ScoreScreen: View {
     @Binding var reading: [Dictionary<Int, Int>.Element]
     @Binding var writing: [Dictionary<Int, Int>.Element]
     @Binding var math: [Dictionary<Int, Int>.Element]
+    
+    @Binding var readingCorrect: String
+    @Binding var writingCorrect: String
+    @Binding var mathCorrect: String
+    
     @Binding var finalScore: Int
     
     var body: some View {
@@ -59,11 +64,11 @@ struct ScoreScreen: View {
                             .foregroundColor(.white)
                     )
                     
-                    ScoreSectionView(title: "Reading", correct: 52, scores: reading)
+                    ScoreSectionView(title: "Reading", correct: readingCorrect, scores: reading)
                     
-                    ScoreSectionView(title: "Writing", correct: 44, scores: writing)
+                    ScoreSectionView(title: "Writing", correct: writingCorrect, scores: writing)
                     
-                    ScoreSectionView(title: "Math", correct: 58, scores: math)
+                    ScoreSectionView(title: "Math", correct: mathCorrect, scores: math)
                     
                 }
                 .font(.custom("Arvo-Bold", size: 20))
@@ -95,8 +100,17 @@ struct ScoreScreen: View {
 struct ScoreScreen_Previews: PreviewProvider {
     @State static var reading: [Dictionary<Int, Int>.Element] = [400: 0].sorted(by: {$0.value > $1.value})
     @State static var score = 1350
+    @State static var correct = "25"
     
     static var previews: some View {
-        ScoreScreen(reading: $reading, writing: $reading, math: $reading, finalScore: $score)
+        ScoreScreen(
+            reading: $reading,
+            writing: $reading,
+            math: $reading,
+            readingCorrect: $correct,
+            writingCorrect: $correct,
+            mathCorrect: $correct,
+            finalScore: $score
+        )
     }
 }
